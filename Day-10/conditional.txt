@@ -1,5 +1,0 @@
-1
-.Simple if-Ex:check weather the user has an internet connection before sending the message
-2.if-else - Ex:check whether the bank account has the sufficient balance to make a payment
-3.elif ladder-Ex:select video quality based on users internet speed
-4.Nested if-Ex:check whether the user can place an order
