@@ -1,0 +1,77 @@
+TOKEN:A token is a smallest individual unit in a program 
+example: int a =10;
+here, int, a,=,10, and ; are tokens
+----------
+TYPES OF TOKENS
+
+1.Identifiers: names given to variables, functions or classes
+2.Operators: these are the symbols to perform operations
+3.literals: fixed values that do not change
+4.Keywords: these are the build or reserved words with special meaning
+5.Punctuators: symbols used to separate the elements of the program
+----------------------------
+Statement: A Line of code is called statement
+-------------
+VARIABLES
+def: a variable is a container which holds or store the data
+
+RULES TO DEFINE A VARIABLE
+1.it can have upper, lower case letters, underscore and numeric
+2.no special character are used as variables
+3.no keyword are used as variables
+4.it can start with upper, lower case letters and underscore but not with a numeric
+5.it is case sensitive which means  "my" and "My" both are different
+
+--------------------
+
+COMMENTS
+
+def: Comments are notes in a program that are ignored by the Python interpreter.
+
+TYPES
+
+1.single line comment: we use "#" symbol for  a single line comment
+2.multi line comment: we use either 3 single quotes or 3 double quotes(''' ''' or """ """). 
+--------------
+
+KEYWORD
+DEF: these are the build or reserved words with special meaning
+list of keywords
+
+['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+
+1. False – Represents a Boolean false value.
+2. None – Represents the absence of a value.
+3. True – Represents a Boolean true value.
+4. and – Returns true if both conditions are true.
+5. as – Creates an alias or gives a name to an imported item.
+6. assert – Checks a condition and raises an error if it is false.
+7. async – Defines an asynchronous function.
+8. await – Waits for an asynchronous operation to complete.
+9. break – Terminates a loop immediately.
+10. class – Defines a class.
+11. continue – Skips the current iteration and moves to the next iteration of a loop.
+12. def – Defines a function.
+13. del – Deletes a variable or an item.
+14. elif – Checks another condition if the previous condition is false.
+15. else – Executes a block when the preceding condition is false.
+16. except – Handles an exception (error).
+17. finally – Executes a block whether an exception occurs or not.
+18. for – Repeats a block for each item in a sequence.
+19. from – Specifies the module from which to import items.
+20. global – Declares that a variable refers to a global variable.
+21. if – Executes a block when a condition is true.
+22. import – Imports a module.
+23. in – Checks membership in a sequence or collection.
+24. is – Checks whether two references point to the same object.
+25. lambda – Creates a small anonymous function.
+26. nonlocal – Refers to a variable in an enclosing function scope.
+27. not – Reverses a Boolean value.
+28. or – Returns true if at least one condition is true.
+29. pass – Acts as a placeholder and does nothing.
+30. raise – Raises an exception.
+31. return – Exits a function and optionally sends back a value.
+32. try – Defines a block of code to test for exceptions.
+33. while – Repeats a block while a condition is true.
+34. with – Manages resources using a context manager.
+35. yield – Produces a value from a generator function and pauses its execution.
