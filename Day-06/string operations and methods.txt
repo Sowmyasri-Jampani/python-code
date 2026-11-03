@@ -1,0 +1,65 @@
+"string operations"
+1)concatination=used for adding 2 strings
+ex:s='python'
+   t='programming'
+   s+t
+   'pythonprogramming'
+2)repetition:used to repeat the string
+ex:s='python'
+   s*2
+   'pythonpython'
+3)indexing:to access a specific character.we have both-&+
+ex:s ='python java flask mysql fastapi'
+s[0]
+'p'
+ s[-4]
+'t'
+-ve starts from 1 from back of string & +ve starts from 0 from front of the string
+4)slicing:if we want any aprt of the string instead of letter we use silicing
+s[start:end+1:step]
+ex:s
+'python java flask mysql fastapi'
+s[:6]
+'python'
+s[7:11]
+'java'
+s[12:17]
+'flask'
+s[18:23]
+'mysql'
+s[::-1]
+'ipatsaf lqsym ksalf avaj nohtyp'
+s[-7:]
+'fastapi'
+s[::2]
+'pto aafakmslfsai'
+s[-15:-20:-1]
+'ksalf'
+s[::-1]
+5)membership:to check weather the element is present in a string or not
+ex:s
+'python java flask mysql fastapi'
+>>> 'java' in s
+True
+>>> 'mysql' in s
+True
+>>> 'c++' in s
+False
+>>> 'python'not in s
+False
+
+*"STRING METHODS"
+len, chr, ord, max, min, sorted
+#case sensitive
+.upper case-means all elements changes to upper case letter
+.lower case-means all elements changes to lower case letter
+.swapcase-opp means upper-lower,lower-upper
+.title-all  1st element in string will be upper case.
+ex:Python Java Flask Mysql Fastapi
+.capitalize-only 1st element in a string will be upper case
+ex:Python java flask mysql fastapi
+#formatting
+#strip-removes spaces from left and right
+#lstrip-remove left side spaces
+#rstrip-remove right side spaces
+#replace and translate-s.replace,s.maketrans,s.translate
