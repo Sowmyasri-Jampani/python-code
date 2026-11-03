@@ -1,0 +1,80 @@
+Data Types in Python – Definition
+
+A data type tells us what kind of data a variable stores.
+Python has 8 main built-in data types categories commonly taught to beginners:
+1. Numeric – int, float, complex
+2. String – str
+3. Boolean – bool
+4. List – list
+5. Tuple – tuple
+6. Set – set
+7. Dictionary – dict
+8. None Type – NoneType
+
+Numeric Data Types in Python
+Definition: Numeric data types are used to store numerical values in Python.
+Python has 3 numeric data types.
+1. int (Integer)
+Used to store whole numbers without decimal points.
+a = 10b = -5print(a)
+Output: 10
+2. float
+Used to store numbers with decimal points.
+a = 10.5b = 3.14print(a)
+Output: 10.5
+3. complex
+Used to store numbers with real and imaginary parts. Python uses j for the imaginary part.
+a = 2 + 3jprint(a)
+Output: (2+3j)
+
+Sequential Data Types in Python
+Definition: Sequential data types are used to store multiple values in a particular order.
+Python has 3 commonly taught sequence data types:
+1. str (String)
+Used to store a sequence of characters or text.
+name = "Python"print(name)
+Output: Python
+2. list
+Used to store multiple values in an ordered collection. A list is mutable, meaning its values can be changed.
+fruits = ["apple", "mango", "banana"]print(fruits)
+Output: ['apple', 'mango', 'banana']
+3. tuple
+Used to store multiple values in an ordered collection. A tuple is immutable, meaning its values cannot be changed in place.
+numbers = (10, 20, 30)print(numbers)
+Output: (10, 20, 30)
+
+Set Data Type in Python
+Definition: A set is a collection of unique elements that does not allow duplicate values.
+Example
+numbers = {10, 20, 30, 20}
+print(numbers)
+Output:
+{10, 20, 30}
+
+Mapping Data Type in Python
+Definition: Mapping data types are used to store data in key-value pairs.
+Python has one built-in mapping data type: dict (Dictionary).
+Example
+student = {    "name": "Ravi",    "age": 20,    "marks": 90}print(student)print(student["name"])
+Output:
+{'name': 'Ravi', 'age': 20, 'marks': 90}
+Ravi
+
+Boolean Data Type in Python
+Definition: Boolean data type is used to store only two values: True or False.
+Example
+a = Trueb = Falseprint(a)print(b)
+Output:
+True
+False
+
+None Data Type in Python
+Definition: The None data type represents the absence of a value.
+Example
+a = None
+
+print(a)
+print(type(a))
+Output:
+None
+<class 'NoneType'>
