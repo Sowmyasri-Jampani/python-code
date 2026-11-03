@@ -1,0 +1,36 @@
+Features of Python:
+1. Simple and Easy to Learn
+2. Interpreted Language
+3. High-Level Language
+4. Object-Oriented
+5. Platform Independent
+6. Free and Open Source
+7. Dynamically Typed
+8. Large Standard Library
+9. Multi-Paradigm Support
+10. Extensible and Embeddable
+11. Automatic Memory Management
+12. Large Community Support
+13. Portable
+14. Interactive
+15. GUI Programming Support
+
+Main diff b/w procedure & oop programming:
+Procedural Programming: Focuses on functions and follows a top-down approach.
+OOP Programming: Focuses on objects and classes and follows a bottom-up approach.
+
+OOPS CONCEPTS:
+1. Class
+2. Object
+3. Inheritance
+4. Polymorphism
+5. Encapsulation
+6. Abstraction
+
+Real-Time OOP Examples from Websites and Social Media
+1. Class: Instagram — `User` class for creating user profiles.
+2. Object: Instagram — a specific user's account.
+3. Inheritance: YouTube — different types of users inheriting common features from a base user class.
+4. Polymorphism: WhatsApp — the `send()` action can send text messages, images, or videos.
+5. Encapsulation: Facebook — protecting user account details and private information.
+6. Abstraction: YouTube — watching a video without knowing how it is processed and streamed internally.
