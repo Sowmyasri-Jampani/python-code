@@ -1,0 +1,10 @@
+A function in Python is a reusable block of code that performs a particular task.
+In simple words, a function is a group of statements that we write once and use whenever we need them.
+
+Benefits of using functions
+1. Code reusability: Write code once and use it multiple times.
+2. Reduces code repetition: No need to write the same code again and again.
+3. Easy debugging: If an error occurs, we can find and fix it in a particular function.
+4. Easy maintenance: Changes can be made in one place.
+5. Code organization: Divides a big program into smaller parts.
+6. Readability: Makes code easier to understand.
